@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="background" stylesheets="@styles.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="thedrake.TheDrakeController">
+  <children>
+    <VBox alignment="CENTER" prefHeight="307" prefWidth="433" spacing="20">
+      <padding>
+        <Insets bottom="20" left="20" right="20" top="20" />
+      </padding>
+      <StackPane styleClass="title">
+        <Label text="The Drake" styleClass="text"/>
+      </StackPane>
+      <Button text="Hra dvou hráčů" styleClass="menu-btn" onAction="#onPlayerVsPlayerClicked"/>
+      <Button text="Hra proti počítači" styleClass="menu-btn"/>
+      <Button text="Hra po internetu" styleClass="menu-btn"/>
+      <Button text="Konec" styleClass="menu-btn" onAction="#onExitButtonClicked"/>
+    </VBox>
+  </children>
+</StackPane>

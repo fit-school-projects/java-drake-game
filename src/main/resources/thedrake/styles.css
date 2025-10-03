@@ -1,0 +1,34 @@
+#background {
+    -fx-background-image: url('thedrake.png');
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+
+.title {
+    -fx-background-color: transparent;
+    -fx-padding: 10px;
+}
+
+.title .text {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 72px;
+    -fx-text-fill: white;
+}
+
+
+.menu-btn {
+    -fx-background-color: #FFF8DC;
+    -fx-background-radius: 5;
+    -fx-border-color: #8B4513;
+    -fx-border-radius: 5;
+    -fx-text-fill: #000000;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-pref-height: 45px;
+    -fx-pref-width: 200px;
+}
+
+.menu-btn:hover {
+    -fx-background-color: #8B4513;
+    -fx-text-fill: #ffffff;
+}
